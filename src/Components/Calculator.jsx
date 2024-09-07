@@ -6,6 +6,7 @@ function Calculator() {
   return (
     <div className="container">
       <div className="calculator">
+        <h1>React Calculator</h1>
         <form action="">
           <div className='display' style={{display:"flex", flexDirection:"column"}}>
             <input type= "text" value={value}/>
