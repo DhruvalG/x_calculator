@@ -13,28 +13,28 @@ function Calculator() {
             <div className='output'>{res}</div>
           </div>
           <div>
-            <input type="button" value="7" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="8" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="9" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="*" onClick={e => setValue(value + e.target.value)}/>
+            <button value="7" onClick={e => setValue(value + e.target.value)}/>
+            <button value="8" onClick={e => setValue(value + e.target.value)}/>
+            <button value="9" onClick={e => setValue(value + e.target.value)}/>
+            <button value="*" onClick={e => setValue(value + e.target.value)}/>
           </div>
           <div>
-            <input type="button" value="4" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="5" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="6" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="+" onClick={e => setValue(value + e.target.value)}/>
+            <button value="4" onClick={e => setValue(value + e.target.value)}/>
+            <button value="5" onClick={e => setValue(value + e.target.value)}/>
+            <button value="6" onClick={e => setValue(value + e.target.value)}/>
+            <button value="+" onClick={e => setValue(value + e.target.value)}/>
           </div>
           <div>
-            <input type="button" value="1" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="2" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="3" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="-" onClick={e => setValue(value + e.target.value)}/>
+            <button value="1" onClick={e => setValue(value + e.target.value)}/>
+            <button value="2" onClick={e => setValue(value + e.target.value)}/>
+            <button value="3" onClick={e => setValue(value + e.target.value)}/>
+            <button value="-" onClick={e => setValue(value + e.target.value)}/>
           </div>
           <div>
-            <input type="button" value="C" onClick={e => setValue('') + setRes('')}/>
-            <input type="button" value="0" onClick={e => setValue(value + e.target.value)}/>
-            <input type="button" value="=" className='equal' onClick={e => setRes(value==0? "Error" : eval(value))}/>
-            <input type="button" value="/" onClick={e => setValue(value + e.target.value)}/>
+            <button value="C" onClick={e => setValue('') + setRes('')}/>
+            <button value="0" onClick={e => setValue(value + e.target.value)}/>
+            <button value="=" className='equal' onClick={e => setRes(value==0? "Error" : eval(value))}/>
+            <button value="/" onClick={e => setValue(value + e.target.value)}/>
           </div>
         </form>
       </div>
